@@ -8,6 +8,8 @@ import lombok.*;
 @Setter
 @ToString
 @EqualsAndHashCode
-public class JavaCode {
-    private String code;
+public class CleanedJavaCode {
+    private String originalCode;
+    private String cleanedCode;
+    private Double percentage;
 }
